@@ -885,7 +885,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "flasho"
     usar = user
     wew = usar.id
     try:
@@ -938,7 +938,7 @@ async def deezer(client: Client, message_: Message):
     queryy = text[1]
     query = queryy
     res = lel
-    await res.edit(f"Searching 👀👀👀 for `{queryy}` on deezer")
+    await res.edit(f"Searching (⌐■-■) for `{queryy}` on deezer")
     try:
         songs = await arq.deezer(query,1)
         if not songs.ok:
@@ -1023,7 +1023,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "flasho"
     usar = user
     wew = usar.id
     try:
@@ -1075,7 +1075,7 @@ async def jiosaavn(client: Client, message_: Message):
     text = message_.text.split(" ", 1)
     query = text[1]
     res = lel
-    await res.edit(f"Searching 👀👀👀 for `{query}` on jio saavn")
+    await res.edit(f"Searching (⌐■-■) for `{query}` on jio saavn")
     try:
         songs = await arq.saavn(query)
         if not songs.ok:
@@ -1255,7 +1255,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ **Playing** here the song requested by {r_by.mention} via Youtube Music 😜",
+            caption=f"▶️ **Playing** here the song requested by {r_by.mention} via Youtube Music ರ_ರ",
         )
         
         os.remove("final.png")
